@@ -21,7 +21,3 @@ def next_match():
     teams = _get_team_info(soup)
     parsed += teams[0] + '-' + teams[1]
     return parsed
-
-
-if __name__ == '__main__':
-    print(next_match())

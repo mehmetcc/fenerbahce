@@ -23,6 +23,7 @@ fenerbahce depends on the following packages:
 - BeautifulSoup4
 - lxml
 - click
+- click-help-colors
 - requests
 - pytest
 - coverage.py
