@@ -65,5 +65,5 @@ poetry run coverage html
 
 ## Future Ideas
 
-- Colourful messages
 - Live scores
+- Fixture
