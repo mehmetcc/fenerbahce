@@ -4,6 +4,19 @@ fenerbahce is a command line tool to fetch information past and future games of 
 
 Currently, only the last and the next game information can be shown. In the future I will integrate live scores, and pip packaging.
 
+## Installation
+
+Install with pip:
+
+```pip install fenerbahce```
+
+
+## Commands
+
+`fenerbahce next` -> Fetches next match information
+
+`fenerbahce last` -> Fetches last match information
+
 ## Dependencies
 
 fenerbahce depends on the following packages:
@@ -15,16 +28,17 @@ fenerbahce depends on the following packages:
 - pytest
 - coverage.py
 
-## Running
+## Running locally
 
-The project is built by using poetry and Python3. So in order to be able to run this project, make sure you have a running Python3 instance and a working poetry distribution.
+The project is built by using poetry and Python3. So to be able to run this project locally, make sure you have a running Python3 instance and a working poetry distribution.
 
-To run fenerbahce locally, use the command:
+In order to run the project locally, after cloning the repository, use the command:
+
 ```
 poetry run fenerbahce
 ```
 
-This will prompt a help page. For specific commands:
+Commands described above can also be executed, but with little caveats:
 
 `poetry run fenerbahce next` -> Fetches next match information
 
