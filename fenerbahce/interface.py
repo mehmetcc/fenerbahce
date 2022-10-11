@@ -1,5 +1,4 @@
 
-from code import interact
 import click
 from fenerbahce.last_match import last_match
 from fenerbahce.next_match import next_match

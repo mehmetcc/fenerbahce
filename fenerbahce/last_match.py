@@ -1,4 +1,3 @@
-# Some variables
 from fenerbahce.crawler import Crawler
 
 
