@@ -1,5 +1,5 @@
 # Some variables
-from crawler import Crawler
+from fenerbahce.crawler import Crawler
 
 
 def last_match():

@@ -1,4 +1,4 @@
-from crawler import Crawler
+from fenerbahce.crawler import Crawler
 
 
 def _get_match_info(soup):
