@@ -12,6 +12,8 @@ fenerbahce depends on the following packages:
 - lxml
 - click
 - requests
+- pytest
+- coverage.py
 
 ## Running
 
@@ -20,4 +22,29 @@ The project is built by using poetry and Python3. So in order to be able to run 
 To run fenerbahce locally, use the command:
 ```
 poetry run fenerbahce
+```
+
+This will prompt a help page. For specific commands:
+
+`poetry run fenerbahce next` -> Fetches next match information
+
+`poetry run fenerbahce last` -> Fetches last match information
+
+## Testing
+
+To run tests, run the command:
+```
+poetry run pytest
+```
+
+To calculate coverage, run these commands consecutively:
+```
+poetry run coverage run -m pytest
+poetry run coverage report
+```
+
+Alternatively, an HTML report can also be generated:
+```
+poetry run coverage run -m pytest
+poetry run coverage html
 ```
