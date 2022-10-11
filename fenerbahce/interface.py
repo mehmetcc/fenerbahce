@@ -1,9 +1,8 @@
 
 from code import interact
 import click
-
-from next_match import next_match
-from last_match import last_match
+from fenerbahce.last_match import last_match
+from fenerbahce.next_match import next_match
 
 
 @click.group()
@@ -28,7 +27,3 @@ def last():
 
 interface.add_command(next)
 interface.add_command(last)
-
-
-if __name__ == '__main__':
-    interface()
